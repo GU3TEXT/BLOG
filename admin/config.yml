@@ -48,11 +48,11 @@ collections:      # https://www.netlifycms.org/docs/configuration-options/#colle
 
 # 如切换主题，请删除以下选项或自行配置，默认仅配置了fluid主题
   - name: "settings"
-    label: "settings"
+    label: "Settings"
     files:      
       - file: "source/_data/fluid_config.yml"
         name: "fluid"
-        label: "fluid主题配置"
+        label: "Fluid主题配置"
         editor:
           preview: false      # 是否开启编辑预览
         fields:
